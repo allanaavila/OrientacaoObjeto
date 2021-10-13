@@ -1,0 +1,11 @@
+
+public class Voo {
+	
+	private numeroVoo;
+	private Data data;
+	private int assentos[];
+	
+	
+	
+
+}

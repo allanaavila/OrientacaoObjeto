@@ -1,0 +1,67 @@
+import java.lang.*;
+import java.util.*;
+
+public class Aluno {
+	
+	private String nomeAluno;
+	private String nomeFaculdade;
+	private String curso;
+	
+	//associacao
+	private Data dataNascimento;
+	private Data dataIngresso;
+	
+	
+	public Aluno(String nomeAluno, String nomeFaculdade, String curso, Data dataNascimento, Data dataIngressso) {
+		
+		this.nomeAluno = nomeAluno;
+		this.nomeFaculdade = nomeFaculdade;
+		this.curso = curso;
+		this.dataNascimento = dataNascimento;
+		this.dataIngresso = dataIngresso;
+	}
+	
+	//setters
+	public void setNomeAluno(String nome) {
+		this.nomeAluno = nome;
+	}
+	
+	public void setNomeFaculdade(String faculdade) {
+		this.nomeFaculdade = faculdade;
+	}
+	
+	public void setCurso(String curso) {
+		this.curso = curso;
+	}
+	
+	public void setDataNascimento(Data dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
+	
+	public void setDataIngresso(Data dataIngresso) {
+		this.dataIngresso = dataIngresso;
+	}
+	
+	//getter unico
+	public String getAll() {
+		
+		String saida = " ";
+		
+		saida += this.nomeAluno + "\n";
+		saida += this.nomeFaculdade + "\n";
+		saida += this.curso + "\n";
+		
+		saida += Integer.toString(this.dataNascimento.getDia()) + "/";
+		saida += Integer.toString(this.dataNascimento.getMes()) + "/";
+		saida += Integer.toString(this.dataNascimento.getAno()) + "\n";
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+
+}

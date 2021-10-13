@@ -1,0 +1,23 @@
+
+public class Voo {
+	
+	private int numeroVOo;
+	private Data data;
+	private int assentos[];
+	
+	
+	public Voo(int numeroVoo, Data data) {
+		this.numeroVOo = numeroVoo;
+		this.data = data;
+		
+		//configuracao dos assentos
+		assentos = new int[100];
+		for(int i = 0; i < 100; i++) {
+			this.assentos[i] = 0;
+		}
+	}
+	
+	
+	
+
+}

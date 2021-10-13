@@ -1,0 +1,24 @@
+
+public class Aluno {
+	
+	private String nomeAluno;
+	private String nomeFaculdade;
+	private String curso;
+	
+	//associacao
+	private Data dataNascimento;
+	private Data dataIngresso;
+	
+	
+	public Aluno(String nomeAluno, String nomeFaculdade, String curso, Data dataNascimento, Data dataIngressso) {
+		
+		this.nomeAluno = nomeAluno;
+		this.nomeFaculdade = nomeFaculdade;
+		this.curso = curso;
+		this.dataNascimento = dataNascimento;
+		this.dataIngresso = dataIngresso;
+	}
+	
+	
+
+}

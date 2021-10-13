@@ -1,0 +1,28 @@
+
+public class Data {
+	
+	private int dia;
+	private int mes;
+	private int ano;
+	private int horas;
+	private int minuto;
+	
+	
+	public Data(int dia, int mes, int ano) {
+		this.dia = dia;
+		this.mes = mes;
+		this.ano = ano;
+		this.horas = 0;
+		this.minuto = 0;
+	}
+	else {
+		this.dia = 0;
+		this.mes = 0;
+		this.ano = 0;
+		this.horas = 0;
+		this.minuto = 0;
+	}
+	
+	
+
+}
